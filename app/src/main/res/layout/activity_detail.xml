@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/image"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+        </ImageView>
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:textColor="#C563D6"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="500">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:id="@+id/title"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Title"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/description"
+
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Description">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2">
+        <LinearLayout
+            android:id="@+id/buyNow"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#DE79EF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy Now"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/addTocart"
+            android:layout_margin="10dp"
+
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add To Cart"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

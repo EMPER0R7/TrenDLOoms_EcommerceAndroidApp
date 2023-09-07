@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="30dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:paddingBottom="8dp"
+        android:textSize="40sp"
+        android:textColor="#9C27B0"></TextView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        app:cardElevation="5dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/email"
+            android:hint="Email"
+            android:layout_height="wrap_content"
+            android:padding="15dp"></EditText>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        app:cardElevation="5dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Password"
+            android:id="@+id/password"
+            android:inputType="numberPassword"
+            android:layout_height="wrap_content"
+            android:padding="15dp"></EditText>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dp"
+        android:paddingRight="1dp"
+        android:text="New user?  Sign up"
+        android:textColor="#03A9F4"></TextView>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/loginbtn"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Confirm"></Button>
+ </LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "766527398973",
+    "project_id": "trendlooms-3bad6",
+    "storage_bucket": "trendlooms-3bad6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766527398973:android:8b1dc1bda7661447f83654",
+        "android_client_info": {
+          "package_name": "com.example.trendlooms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766527398973-u8rkg7059db4i6cfu9p4dm9sbkv0p101.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRyW5GeSr4JeXo-EnGf11ryGxYl0xzRQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766527398973-u8rkg7059db4i6cfu9p4dm9sbkv0p101.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
