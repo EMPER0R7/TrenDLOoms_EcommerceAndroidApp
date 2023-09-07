@@ -67,10 +67,10 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     private void addToCart(String qty){
-        ProgressDialog progressDialog=new ProgressDialog(this);
+      /*  ProgressDialog progressDialog=new ProgressDialog(this);
         progressDialog.setTitle("Adding");
         progressDialog.setMessage("In the Cart");
-       progressDialog.show();
+       progressDialog.show();*/
         String id= UUID.randomUUID().toString();
         CartModel cartModel= new CartModel(id,productModel.getTitle(),productModel.getImage(),productModel.getPrice(), FirebaseAuth.getInstance().getUid(),qty);
         FirebaseFirestore.getInstance()
